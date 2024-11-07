@@ -1,5 +1,5 @@
 image: gitpod/workspace-full
 
 tasks:
-  - init: pip install gradio && pip install numpy && pip install scikit-learn 
+  - init: pip install gradio && pip install numpy && pip install scikit-learn && pip install pandas
     command: python index.py
