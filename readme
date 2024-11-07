@@ -1,6 +1,6 @@
 executar antes de iniciar!!
 
 - pip install gradio
-- pip instal numpy
+- pip install numpy
 - pip install scikit-learn
 - pip install pandas
