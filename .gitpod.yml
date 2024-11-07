@@ -1,9 +1,4 @@
 image: gitpod/workspace-full
 
 tasks:
-  - name: Terminal 1
-    before: pip install gradio 
-    init: pip install numpy
-
-  - name: Terminal 2
-    init: pip install scikit-learn
+  - init: pip install gradio
