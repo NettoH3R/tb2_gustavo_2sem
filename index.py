@@ -62,7 +62,7 @@ def prever_vendas(marca, preco, avaliacao):
 
     if round(previsao[0],0) >= 0:
         modelos_str = ", ".join(modelos_correspondentes)
-        resposta = f"Modelos que podem se encacaixar no padrão sugerido:\n {modelos_str }"
+        resposta = f"Modelos que podem se encaixar no padrão sugerido:\n {modelos_str }"
 
         return f"Previsão de vendas: {round(previsao[0],0): .0f}\n\n " + resposta	
     else:
